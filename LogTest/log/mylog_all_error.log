@@ -1,0 +1,4 @@
+2016-12-07 11:44:31,002 [main] ERROR com.sunteng.test.a.TestA - TestA-error
+2016-12-07 11:44:31,004 [main] ERROR com.sunteng.test.b.TestB - TestB-error
+2016-12-07 11:44:31,004 [main] ERROR com.sunteng.test.c.TestC - TestC-error
+2016-12-07 11:44:31,005 [main] ERROR com.sunteng.test.d.TestD - TestD-error

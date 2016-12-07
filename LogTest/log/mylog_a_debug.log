@@ -1,0 +1,4 @@
+2016-12-07 11:44:30,999 [main] DEBUG com.sunteng.test.a.TestA - TestA-debug
+2016-12-07 11:44:31,001 [main] INFO  com.sunteng.test.a.TestA - TestA-info
+2016-12-07 11:44:31,002 [main] WARN  com.sunteng.test.a.TestA - TestA-warn
+2016-12-07 11:44:31,002 [main] ERROR com.sunteng.test.a.TestA - TestA-error

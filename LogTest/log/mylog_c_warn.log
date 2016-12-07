@@ -1,0 +1,2 @@
+2016-12-07 11:44:31,004 [main] WARN  com.sunteng.test.c.TestC - TestC-warn
+2016-12-07 11:44:31,004 [main] ERROR com.sunteng.test.c.TestC - TestC-error
