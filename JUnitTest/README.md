@@ -1,0 +1,1 @@
+使用了fastjson，gson和metsfjson三种方式解析json数据，并使用junit进行测试，同时一些pojo类使用了lombok注解简化编写。
