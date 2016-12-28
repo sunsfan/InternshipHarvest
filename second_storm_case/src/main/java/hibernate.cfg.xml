@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+    <!DOCTYPE hibernate-configuration PUBLIC    
+              "-//Hibernate/Hibernate Configuration DTD 3.0//EN"    
+              "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+	<session-factory>
+		<property name="hibernate.connection.driver_class">
+			com.mysql.jdbc.Driver
+		</property>
+		<property name="hibernate.connection.url">
+			jdbc:mysql://localhost:3306/sunsfantest
+		</property>
+		<!-- 数据库连接设置 -->
+
+		<property name="hibernate.connection.username">sunsfan</property>
+		<property name="hibernate.connection.password">123209877</property>
+
+		<!-- show_sql 生成SQL语句输出到日志以供调式 -->
+		<property name="hibernate.show_sql">true</property>
+
+		<!-- SQL dialect 方言 -->
+		<property name="hibernate.dialect">
+			org.hibernate.dialect.MySQLDialect
+		</property>
+
+		<!-- 指定session通过当前执行的线程来跟踪和界定 -->
+		<property name="hibernate.current_session_contecxt_class">
+			thread
+		</property>
+
+
+		<!-- 添加实体类的映射文件 -->
+		<mapping resource="sunsfan_storm/dao/Word.hbm.xml" />
+
+	</session-factory>
+</hibernate-configuration> 
